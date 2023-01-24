@@ -2,9 +2,17 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function GamePage() {
 	const wordGroups = {
-		setOne: {
-			groupOne: ["big", "large", "huge"],
-			groupTwo: ["small", "tiny", "minute"],
+		abdicate: {
+			synonym: ["resign", "vacate", "renounce"],
+			antonym: ["assume", "claim", "seize"],
+		},
+		consecutive: {
+			synonym: ["successive", "continuous", "uniterrupted"],
+			antonym: ["nonsequential"],
+		},
+		omit: {
+			synonym: [""],
+			antonym: [],
 		},
 	};
 
