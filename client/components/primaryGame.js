@@ -1,21 +1,23 @@
 import React from "react";
-import { TextInput, Text, StyleSheet, View } from 'react-native';
+import { TextInput, Text, StyleSheet, View, } from 'react-native';
 
-const primaryGame = () => {
+const Welcome = () => {
+    const title = "Welcome to your first challenge!"
     return (
         <View
             style={[styles.container, {
                 flexDirection: 'column',
             },
             ]}>
-            <Button color="lightblue" shadowSize={1}>
+            <div className='sidebar' />
+            <Text> {title}
+            </Text>
+            <Button color="steelblue" shadowSize={1}>
                 Click Me
             </Button>
-            <div className='sidebar' />
-            <TextInput>
-                your name
-            </TextInput>
+
 
         </View>
     );
 };
+module.exports = Welcome
