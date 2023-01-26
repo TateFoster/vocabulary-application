@@ -3,26 +3,23 @@ import { StyleSheet, Text, View } from "react-native";
 import MainArea from "./MainArea/MainArea";
 
 export default function App() {
-	let engage = false;
+  return (
+    <View style={[styles.container,
+    { flexDirection: 'column' },
 
-	if (engage) {
-		return <MainArea />;
-	} else {
-		return (
-			<View style={styles.container}>
-				<Text>Open up App.js to start working on your app! Testing</Text>
-
-				<StatusBar style="auto" />
-			</View>
-		);
-	}
+    ]}>
+      <Text>VocabApp!</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		backgroundColor: "#fff",
-		alignItems: "center",
-		justifyContent: "center",
-	},
+  container: {
+    flex: 3,
+    backgroundColor: 'powderblue',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 10,
+  },
 });
