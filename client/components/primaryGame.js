@@ -13,7 +13,7 @@ const primaryGame = () => {
             </Button>
             <div className='sidebar' />
             <TextInput>
-                Place your name here
+                your name
             </TextInput>
 
         </View>
