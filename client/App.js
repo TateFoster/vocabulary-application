@@ -3,23 +3,20 @@ import { StyleSheet, Text, View } from "react-native";
 import MainArea from "./MainArea/MainArea";
 
 export default function App() {
-  return (
-    <View style={[styles.container,
-    { flexDirection: 'column' },
-
-    ]}>
-      <Text>VocabApp!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+	return (
+		<View style={[styles.container, { flexDirection: "column" }]}>
+			<Text>VocabApp!</Text>
+			<StatusBar style="auto" />
+		</View>
+	);
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 3,
-    backgroundColor: 'powderblue',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 10,
-  },
+	container: {
+		flex: 3,
+		backgroundColor: "powderblue",
+		alignItems: "center",
+		justifyContent: "center",
+		padding: 10,
+	},
 });

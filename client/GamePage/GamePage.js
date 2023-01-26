@@ -10,7 +10,31 @@ export default function GamePage() {
 			synonym: ["successive", "continuous", "uniterrupted"],
 			antonym: ["nonsequential"],
 		},
-		omit: {
+		claim: {
+			synonym: ["assert", "declare", "hold"],
+			antonym: ["deny", "reject", "abandon"],
+		},
+		hyperbole: {
+			synonym: ["overstatement", "embellishment", "exaggeration"],
+			antonym: ["understatement", "unembellished", "truth"],
+		},
+		zeal: {
+			synonym: [""],
+			antonym: [],
+		},
+		claim: {
+			synonym: [""],
+			antonym: [],
+		},
+		claim: {
+			synonym: [""],
+			antonym: [],
+		},
+		claim: {
+			synonym: [""],
+			antonym: [],
+		},
+		claim: {
 			synonym: [""],
 			antonym: [],
 		},
