@@ -20,4 +20,4 @@ const Welcome = () => {
         </View>
     );
 };
-module.exports = Welcome
+export default Welcome;
