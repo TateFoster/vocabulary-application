@@ -1,0 +1,32 @@
+.firstInstance{
+    display:flex;
+    flex-direction:column;
+background-color: bisque;
+border-radius: 15px;
+
+
+}
+
+.gameOne{
+   
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    /* background-image: url(); */
+    background-color: rgb(180, 239, 180);
+
+}
+
+
+
+.gameTwo{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    /* background-image:url() */
+}
+
+
+
+
+
